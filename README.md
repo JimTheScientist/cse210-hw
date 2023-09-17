@@ -11,4 +11,8 @@ This repository contains the starter code for many different projects. They are 
 
 # change
 
-wow i changed the readme im so cool - me 
+wow i changed the readme im so cool - me
+
+i can also do it from neovim, how cool!
+
+
