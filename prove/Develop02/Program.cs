@@ -41,9 +41,9 @@ class Program
                     currentJournal._entries.Add(newEntry);
                     break;
                 case 2:
+                    Console.WriteLine("Reading from Journal: " + currentJournal.GetName());
                     foreach (Entry entry in currentJournal._entries)
                     {
-                        Console.WriteLine(currentJournal.GetName());
                         Console.WriteLine("===============");
                         Console.WriteLine(entry.GetCreationDate().ToShortDateString());
                         Console.WriteLine(entry.GetPrompt());
