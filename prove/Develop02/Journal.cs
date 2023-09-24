@@ -47,10 +47,6 @@ public class Journal
             {
                 outputFile.WriteLine(vEntry.GetCreationDate().Ticks + SEPARATOR + vEntry.GetPrompt() + SEPARATOR + vEntry.GetResponse());
             }
-
-            // You can use the $ and include variables just like with Console.WriteLine
-            string color = "Blue";
-            outputFile.WriteLine($"My favorite color is {color}");
         }
     }
 
