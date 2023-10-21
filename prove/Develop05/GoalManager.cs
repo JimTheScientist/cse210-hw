@@ -3,7 +3,6 @@
 public class GoalManager
 {
     private List<Goal> _goals = new();
-
     public void Start()
     {
         Console.WriteLine("Welcome to the program, what would you like to do? \n" +
